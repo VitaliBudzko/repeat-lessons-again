@@ -45,6 +45,13 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
             UIImage else {
                 fatalError("Expected a dictionary containing an image, but was provided the following: \(info)")
         }
+        
+        // Set photoImageView to display the selected image.
+        photoImageView.image = selectedImage
+        
+        // Dismiss the picker.
+        dismiss(animated: true, completion: nil)
+        
     }
     
     // MARK: Actions
