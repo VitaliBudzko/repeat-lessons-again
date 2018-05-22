@@ -14,6 +14,7 @@
 		DC73509520A379BB008A3C12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC73509320A379BB008A3C12 /* LaunchScreen.storyboard */; };
 		DC7350A020A379BC008A3C12 /* food_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC73509F20A379BC008A3C12 /* food_trackerTests.swift */; };
 		DCF2C4FE20AF54FC00380617 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF2C4FD20AF54FC00380617 /* RatingControl.swift */; };
+		DCF2C50020B467CA00380617 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF2C4FF20B467CA00380617 /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		DC73509F20A379BC008A3C12 /* food_trackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = food_trackerTests.swift; sourceTree = "<group>"; };
 		DC7350A120A379BC008A3C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCF2C4FD20AF54FC00380617 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		DCF2C4FF20B467CA00380617 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				DC73508A20A379BB008A3C12 /* AppDelegate.swift */,
 				DC73508C20A379BB008A3C12 /* ViewController.swift */,
+				DCF2C4FF20B467CA00380617 /* Meal.swift */,
 				DCF2C4FD20AF54FC00380617 /* RatingControl.swift */,
 				DC73508E20A379BB008A3C12 /* Main.storyboard */,
 				DC73509120A379BB008A3C12 /* Assets.xcassets */,
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCF2C50020B467CA00380617 /* Meal.swift in Sources */,
 				DC73508D20A379BB008A3C12 /* ViewController.swift in Sources */,
 				DCF2C4FE20AF54FC00380617 /* RatingControl.swift in Sources */,
 				DC73508B20A379BB008A3C12 /* AppDelegate.swift in Sources */,
