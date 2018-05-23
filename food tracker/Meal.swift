@@ -16,7 +16,7 @@ class Meal {
     var rating: Int
     
     // MARK: Initialization
-    init?(name: String, photo: UIImage, rating: Int) {
+    init?(name: String, photo: UIImage?, rating: Int) {
         
         // The name must not be empty
         guard !name.isEmpty else {
